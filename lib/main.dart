@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:riderapp/AllScreens/loginscreen.dart';
-// import 'package:riderapp/AllScreens/mainscreen.dart';
+//import 'package:riderapp/AllScreens/mainscreen.dart';
 
 void main() {
   runApp(MyApp());
