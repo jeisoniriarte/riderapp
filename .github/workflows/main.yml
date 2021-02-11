@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Flutter CI
 
 # Controls when the action will run. 
 on:
@@ -25,10 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v2.3.2
-      - name: Setup JDK
-        uses: actions/setup-java@v1.4.2
-        with: 
-          java-version: 1.8
+      - name: Setup Java JDK
+        uses: actions/setup-java@v1.4.3
+
       - name: Build with Gradle
         run: ./gradlew build
       - name: Upload APK
