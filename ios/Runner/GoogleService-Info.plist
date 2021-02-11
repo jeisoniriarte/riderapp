@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1038666565898-pvn5369n03i1fc22sr523nig520armt0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1038666565898-pvn5369n03i1fc22sr523nig520armt0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBOEcXJ_13OGPcwCbtVD21DWTh2YYN64_I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1038666565898</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.impulsetech.riderapp</string>
+	<key>PROJECT_ID</key>
+	<string>riderapp-impulsetech</string>
+	<key>STORAGE_BUCKET</key>
+	<string>riderapp-impulsetech.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1038666565898:ios:a1ad00d335d58fa19fd2f3</string>
+	<key>DATABASE_URL</key>
+	<string>https://riderapp-impulsetech-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
