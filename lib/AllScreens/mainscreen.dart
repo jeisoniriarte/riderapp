@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
+  // Identificador
+  static const String idScreen = "mainscreen";
+
   @override
   _MainScreenState createState() => _MainScreenState();
 }
@@ -10,7 +13,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Taxi Rider App"),
+        title: Text("Rider App"),
       ),
     );
   }
