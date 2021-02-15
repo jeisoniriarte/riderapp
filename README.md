@@ -1,4 +1,4 @@
-# taxiapp
+# Rider App
 
 A new Flutter project.
 
