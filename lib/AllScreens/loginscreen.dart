@@ -10,8 +10,10 @@ class LoginScreen extends StatelessWidget {
   // Identificador
   static const String idScreen = "login";
 
-  TextEditingController emailTextEditingController = TextEditingController();
-  TextEditingController passwordTextEditingController = TextEditingController();
+  final TextEditingController emailTextEditingController =
+      TextEditingController();
+  final TextEditingController passwordTextEditingController =
+      TextEditingController();
 
   @override
   Widget build(BuildContext context) {
