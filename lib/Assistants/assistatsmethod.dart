@@ -86,6 +86,7 @@ class AssistantMethod {
   }
 
   static void getCurrentOnlineUserInfo() async {
+    // ignore: await_only_futures
     firebaseUser = await FirebaseAuth.instance.currentUser;
     String userId = firebaseUser.uid;
     DatabaseReference reference =
