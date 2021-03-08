@@ -51,7 +51,6 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     AssistantMethod.getCurrentOnlineUserInfo();

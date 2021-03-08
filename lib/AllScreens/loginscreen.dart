@@ -84,9 +84,9 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(
                       height: 20.0,
                     ),
-                    RaisedButton(
-                      color: Colors.yellow,
-                      textColor: Colors.black,
+                    ElevatedButton(
+                      // color: Colors.yellow,
+                      // textColor: Colors.black,
                       child: Container(
                         height: 50.0,
                         child: Center(
@@ -97,9 +97,9 @@ class LoginScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      shape: new RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(24.0),
-                      ),
+                      // shape: new RoundedRectangleBorder(
+                      //   borderRadius: new BorderRadius.circular(24.0),
+                      // ),
                       onPressed: () {
                         if (!emailTextEditingController.text.contains("@")) {
                           displayToastMessage(
@@ -115,7 +115,7 @@ class LoginScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              FlatButton(
+              TextButton(
                 onPressed: () {
                   // print("clicked");
                   Navigator.pushNamedAndRemoveUntil(
@@ -124,9 +124,9 @@ class LoginScreen extends StatelessWidget {
                 child: Text(
                   "Do not have an Account? Register Here.",
                 ),
-                shape: new RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(24.0),
-                ),
+                // shape: new RoundedRectangleBorder(
+                //   borderRadius: new BorderRadius.circular(24.0),
+                // ),
               ),
             ],
           ),

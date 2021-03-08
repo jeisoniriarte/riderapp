@@ -129,9 +129,9 @@ class RegisterScreen extends StatelessWidget {
                     SizedBox(
                       height: 20.0,
                     ),
-                    RaisedButton(
-                      color: Colors.yellow,
-                      textColor: Colors.black,
+                    ElevatedButton(
+                      // color: Colors.yellow,
+                      // textColor: Colors.black,
                       child: Container(
                         height: 50.0,
                         child: Center(
@@ -142,9 +142,9 @@ class RegisterScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      shape: new RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(24.0),
-                      ),
+                      // shape: new RoundedRectangleBorder(
+                      //   borderRadius: new BorderRadius.circular(24.0),
+                      // ),
                       onPressed: () {
                         if (nameTextEditingController.text.length < 3) {
                           displayToastMessage(
@@ -169,7 +169,7 @@ class RegisterScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              FlatButton(
+              TextButton(
                 onPressed: () {
                   // print("clicked");
                   Navigator.pushNamedAndRemoveUntil(
@@ -178,9 +178,9 @@ class RegisterScreen extends StatelessWidget {
                 child: Text(
                   "Already have an Account? Login Here.",
                 ),
-                shape: new RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(24.0),
-                ),
+                // shape: new RoundedRectangleBorder(
+                //   borderRadius: new BorderRadius.circular(24.0),
+                // ),
               ),
             ],
           ),
